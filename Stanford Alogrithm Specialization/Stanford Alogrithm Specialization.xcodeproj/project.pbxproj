@@ -49,18 +49,18 @@
 		ED1FA00B2B53245C003882E3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				ED1FA0142B54C84D003882E3 /* Implementation */,
-				ED1FA00C2B53245C003882E3 /* KaratsubaTestCase.swift */,
+				ED1FA0172B55B23E003882E3 /* DivideAndConquer */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		ED1FA0142B54C84D003882E3 /* Implementation */ = {
+		ED1FA0172B55B23E003882E3 /* DivideAndConquer */ = {
 			isa = PBXGroup;
 			children = (
+				ED1FA00C2B53245C003882E3 /* KaratsubaTestCase.swift */,
 				ED1FA0152B54C8BC003882E3 /* Karatsuba.swift */,
 			);
-			path = Implementation;
+			path = DivideAndConquer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
