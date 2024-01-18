@@ -1,5 +1,5 @@
 //
-//  InversionCount.swift
+//  MergeSort.swift
 //  Tests
 //
 //  Created by Kevin Littles on 16/01/24.
@@ -7,24 +7,25 @@
 
 import Foundation
 
-struct Inversion {
+struct MergeSort {
     
-    static var cumulativeInversionsCount: Int = 0
+    private static var cumulativeInversionsCount: Int = 0
     
-    static func count(_ array: [Int]) -> Int {
-        mergeSort(array)
+    static func inversionCount(_ array: [Int]) -> Int {
+        cumulativeInversionsCount = 0
+        sort(array)
         return cumulativeInversionsCount
     }
     
     @discardableResult
-    private static func mergeSort(_ array: [Int]) -> [Int] {
+    private static func sort(_ array: [Int]) -> [Int] {
         guard array.count > 1 else {
             return array
         }
         
         var (left, right): ([Int], [Int]) = divide(array)
-        left = mergeSort(left)
-        right = mergeSort(right)
+        left = sort(left)
+        right = sort(right)
         
         return conquer(left, right: right)
     }
