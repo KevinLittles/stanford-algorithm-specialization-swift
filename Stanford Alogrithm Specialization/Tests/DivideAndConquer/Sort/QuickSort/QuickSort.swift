@@ -57,8 +57,9 @@ struct QuickSort {
 
     private static func divide(_ array: inout [Int], left: Int, right: Int, pivotIndex: Int) -> Int {
         array.swapAt(left, pivotIndex)
-        let pivot = array[left]
-        var i = left + 1
+        
+        let pivot: Int = array[left]
+        var i: Int = left + 1
 
         for j in (left + 1)...right {
             if array[j] < pivot {
@@ -68,6 +69,7 @@ struct QuickSort {
         }
 
         array.swapAt(left, i - 1)
+        
         return i - 1
     }
     
