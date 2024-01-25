@@ -14,6 +14,8 @@
 		ED2A837C2B5768CD00AD078B /* MergeSortTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2A837B2B5768CD00AD078B /* MergeSortTestCase.swift */; };
 		ED7950EF2B5986660056A753 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7950EE2B5986660056A753 /* QuickSort.swift */; };
 		ED7950F42B5998B30056A753 /* QuickSortTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7950F32B5998B30056A753 /* QuickSortTestCase.swift */; };
+		ED9DAD9F2B5DF43E009647A4 /* Karger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DAD9E2B5DF43E009647A4 /* Karger.swift */; };
+		ED9DADA12B5DFE41009647A4 /* KargerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DADA02B5DFE41009647A4 /* KargerTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ED2A837B2B5768CD00AD078B /* MergeSortTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTestCase.swift; sourceTree = "<group>"; };
 		ED7950EE2B5986660056A753 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		ED7950F32B5998B30056A753 /* QuickSortTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortTestCase.swift; sourceTree = "<group>"; };
+		ED9DAD9E2B5DF43E009647A4 /* Karger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karger.swift; sourceTree = "<group>"; };
+		ED9DADA02B5DFE41009647A4 /* KargerTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KargerTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 		ED1FA00B2B53245C003882E3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				ED9DAD9C2B5DF338009647A4 /* Graph */,
 				ED1FA0172B55B23E003882E3 /* DivideAndConquer */,
 			);
 			path = Tests;
@@ -105,6 +110,23 @@
 				ED1FA0152B54C8BC003882E3 /* Karatsuba.swift */,
 			);
 			path = Karatsuba;
+			sourceTree = "<group>";
+		};
+		ED9DAD9C2B5DF338009647A4 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				ED9DAD9D2B5DF348009647A4 /* MinCut */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		ED9DAD9D2B5DF348009647A4 /* MinCut */ = {
+			isa = PBXGroup;
+			children = (
+				ED9DAD9E2B5DF43E009647A4 /* Karger.swift */,
+				ED9DADA02B5DFE41009647A4 /* KargerTestCase.swift */,
+			);
+			path = MinCut;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +206,11 @@
 				ED1FA00D2B53245C003882E3 /* KaratsubaTestCase.swift in Sources */,
 				ED7950EF2B5986660056A753 /* QuickSort.swift in Sources */,
 				ED1FA0162B54C8BC003882E3 /* Karatsuba.swift in Sources */,
+				ED9DAD9F2B5DF43E009647A4 /* Karger.swift in Sources */,
 				ED7950F42B5998B30056A753 /* QuickSortTestCase.swift in Sources */,
 				ED2A837A2B57628800AD078B /* MergeSort.swift in Sources */,
 				ED2A837C2B5768CD00AD078B /* MergeSortTestCase.swift in Sources */,
+				ED9DADA12B5DFE41009647A4 /* KargerTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
