@@ -16,6 +16,10 @@
 		ED7950F42B5998B30056A753 /* QuickSortTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7950F32B5998B30056A753 /* QuickSortTestCase.swift */; };
 		ED9DAD9F2B5DF43E009647A4 /* Karger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DAD9E2B5DF43E009647A4 /* Karger.swift */; };
 		ED9DADA12B5DFE41009647A4 /* KargerTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DADA02B5DFE41009647A4 /* KargerTestCase.swift */; };
+		EDC8ECFA2B69D63C0081BAF9 /* mergeSortInversionCount.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDC8ECF92B69D63C0081BAF9 /* mergeSortInversionCount.txt */; };
+		EDC8ECFC2B69D73C0081BAF9 /* quickSortComparisonCount.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDC8ECFB2B69D73C0081BAF9 /* quickSortComparisonCount.txt */; };
+		EDCBBB192B63039300F4BE51 /* StanfordTestInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCBBB182B63039300F4BE51 /* StanfordTestInputs.swift */; };
+		EDCBBB1B2B63067500F4BE51 /* kargerMinCut.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDCBBB1A2B63067500F4BE51 /* kargerMinCut.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		ED7950F32B5998B30056A753 /* QuickSortTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortTestCase.swift; sourceTree = "<group>"; };
 		ED9DAD9E2B5DF43E009647A4 /* Karger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karger.swift; sourceTree = "<group>"; };
 		ED9DADA02B5DFE41009647A4 /* KargerTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KargerTestCase.swift; sourceTree = "<group>"; };
+		EDC8ECF92B69D63C0081BAF9 /* mergeSortInversionCount.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mergeSortInversionCount.txt; sourceTree = "<group>"; };
+		EDC8ECFB2B69D73C0081BAF9 /* quickSortComparisonCount.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = quickSortComparisonCount.txt; sourceTree = "<group>"; };
+		EDCBBB182B63039300F4BE51 /* StanfordTestInputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanfordTestInputs.swift; sourceTree = "<group>"; };
+		EDCBBB1A2B63067500F4BE51 /* kargerMinCut.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kargerMinCut.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,8 @@
 		ED1FA00B2B53245C003882E3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				EDCBBB182B63039300F4BE51 /* StanfordTestInputs.swift */,
+				EDC8ECF82B69B4AE0081BAF9 /* Resources */,
 				ED9DAD9C2B5DF338009647A4 /* Graph */,
 				ED1FA0172B55B23E003882E3 /* DivideAndConquer */,
 			);
@@ -129,6 +139,16 @@
 			path = MinCut;
 			sourceTree = "<group>";
 		};
+		EDC8ECF82B69B4AE0081BAF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDCBBB1A2B63067500F4BE51 /* kargerMinCut.txt */,
+				EDC8ECF92B69D63C0081BAF9 /* mergeSortInversionCount.txt */,
+				EDC8ECFB2B69D73C0081BAF9 /* quickSortComparisonCount.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,6 +213,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC8ECFC2B69D73C0081BAF9 /* quickSortComparisonCount.txt in Resources */,
+				EDCBBB1B2B63067500F4BE51 /* kargerMinCut.txt in Resources */,
+				EDC8ECFA2B69D63C0081BAF9 /* mergeSortInversionCount.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +231,7 @@
 				ED1FA0162B54C8BC003882E3 /* Karatsuba.swift in Sources */,
 				ED9DAD9F2B5DF43E009647A4 /* Karger.swift in Sources */,
 				ED7950F42B5998B30056A753 /* QuickSortTestCase.swift in Sources */,
+				EDCBBB192B63039300F4BE51 /* StanfordTestInputs.swift in Sources */,
 				ED2A837A2B57628800AD078B /* MergeSort.swift in Sources */,
 				ED2A837C2B5768CD00AD078B /* MergeSortTestCase.swift in Sources */,
 				ED9DADA12B5DFE41009647A4 /* KargerTestCase.swift in Sources */,
