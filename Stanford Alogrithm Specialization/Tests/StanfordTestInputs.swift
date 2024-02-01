@@ -10,7 +10,7 @@ import BigInt
 
 final class StanfordTestInputs {
     
-    static var karger: Karger.Graph {
+    static var karger: Graph {
         let path: String = Bundle(for: Self.self).path(
             forResource: "kargerMinCut",
             ofType: "txt"
@@ -20,7 +20,7 @@ final class StanfordTestInputs {
             encoding: .utf8
         )
         
-        var graph: Karger.Graph = [:]
+        var graph: Graph = [:]
 
         let lines: [Substring] = text.split(separator: "\r\n")
         for line in lines {
@@ -66,6 +66,28 @@ final class StanfordTestInputs {
         let lines: [Int] = text.split(separator: "\n").map { Int($0) ?? 0 }
         
         return lines
+    }
+    
+    static var kosaraju: Graph {
+        let path: String = Bundle(for: Self.self).path(
+            forResource: "largestSCCs",
+            ofType: "txt"
+        )!
+        let text: String = try! .init(
+            contentsOfFile: path,
+            encoding: .utf8
+        )
+        
+        var graph: Graph = [:]
+
+        let lines: [Substring] = text.split(separator: "\n")
+        for line in lines {
+            let chars = line.split(separator: " ")
+            let numbers = chars.compactMap { Int($0) }
+            graph[numbers[0], default: []].append(numbers[1])
+        }
+        
+        return graph
     }
     
 }

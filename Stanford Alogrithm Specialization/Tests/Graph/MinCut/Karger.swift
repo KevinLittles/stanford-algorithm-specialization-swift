@@ -7,9 +7,10 @@
 
 import Foundation
 
+typealias Graph = [Int: [Int]]
+
 struct Karger {
     
-    typealias Graph = [Int: [Int]]
     private typealias Edge = (Int, Int)
     
     static func minCut(of graph: Graph, in attempts: Int) -> Int {

@@ -6,7 +6,6 @@
 //
 
 import XCTest
-import BigInt
 
 final class KargerTestCase: XCTestCase {
     
