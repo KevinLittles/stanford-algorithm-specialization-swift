@@ -14,6 +14,9 @@
 		ED2A837C2B5768CD00AD078B /* MergeSortTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2A837B2B5768CD00AD078B /* MergeSortTestCase.swift */; };
 		ED78F3102B69ED3200A964BB /* Kosaraju.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78F30F2B69ED3200A964BB /* Kosaraju.swift */; };
 		ED78F3122B6B192900A964BB /* KosarajuTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78F3112B6B192900A964BB /* KosarajuTestCase.swift */; };
+		ED78F3152B6BEF0B00A964BB /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78F3142B6BEF0B00A964BB /* Dijkstra.swift */; };
+		ED78F3172B6C902B00A964BB /* DijkstraTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78F3162B6C902B00A964BB /* DijkstraTestCase.swift */; };
+		ED78F3192B6C935700A964BB /* dijkstraShortestPaths.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED78F3182B6C935700A964BB /* dijkstraShortestPaths.txt */; };
 		ED7950EF2B5986660056A753 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7950EE2B5986660056A753 /* QuickSort.swift */; };
 		ED7950F42B5998B30056A753 /* QuickSortTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7950F32B5998B30056A753 /* QuickSortTestCase.swift */; };
 		ED9DAD9F2B5DF43E009647A4 /* Karger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9DAD9E2B5DF43E009647A4 /* Karger.swift */; };
@@ -33,6 +36,9 @@
 		ED2A837B2B5768CD00AD078B /* MergeSortTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortTestCase.swift; sourceTree = "<group>"; };
 		ED78F30F2B69ED3200A964BB /* Kosaraju.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kosaraju.swift; sourceTree = "<group>"; };
 		ED78F3112B6B192900A964BB /* KosarajuTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KosarajuTestCase.swift; sourceTree = "<group>"; };
+		ED78F3142B6BEF0B00A964BB /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		ED78F3162B6C902B00A964BB /* DijkstraTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DijkstraTestCase.swift; sourceTree = "<group>"; };
+		ED78F3182B6C935700A964BB /* dijkstraShortestPaths.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = dijkstraShortestPaths.txt; sourceTree = "<group>"; };
 		ED7950EE2B5986660056A753 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		ED7950F32B5998B30056A753 /* QuickSortTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSortTestCase.swift; sourceTree = "<group>"; };
 		ED9DAD9E2B5DF43E009647A4 /* Karger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karger.swift; sourceTree = "<group>"; };
@@ -101,6 +107,15 @@
 			path = StrongConnectedComponents;
 			sourceTree = "<group>";
 		};
+		ED78F3132B6BEEFA00A964BB /* ShortestPaths */ = {
+			isa = PBXGroup;
+			children = (
+				ED78F3142B6BEF0B00A964BB /* Dijkstra.swift */,
+				ED78F3162B6C902B00A964BB /* DijkstraTestCase.swift */,
+			);
+			path = ShortestPaths;
+			sourceTree = "<group>";
+		};
 		ED7950ED2B59852E0056A753 /* Sort */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +155,7 @@
 		ED9DAD9C2B5DF338009647A4 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				ED78F3132B6BEEFA00A964BB /* ShortestPaths */,
 				ED78F30E2B69ED0400A964BB /* StrongConnectedComponents */,
 				ED9DAD9D2B5DF348009647A4 /* MinCut */,
 			);
@@ -162,6 +178,7 @@
 				EDC8ECF92B69D63C0081BAF9 /* mergeSortInversionCount.txt */,
 				EDC8ECFB2B69D73C0081BAF9 /* quickSortComparisonCount.txt */,
 				EDC8ECFD2B69D9A50081BAF9 /* largestSCCs.txt */,
+				ED78F3182B6C935700A964BB /* dijkstraShortestPaths.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -231,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDC8ECFC2B69D73C0081BAF9 /* quickSortComparisonCount.txt in Resources */,
+				ED78F3192B6C935700A964BB /* dijkstraShortestPaths.txt in Resources */,
 				EDCBBB1B2B63067500F4BE51 /* kargerMinCut.txt in Resources */,
 				EDC8ECFA2B69D63C0081BAF9 /* mergeSortInversionCount.txt in Resources */,
 				EDC8ECFE2B69D9A50081BAF9 /* largestSCCs.txt in Resources */,
@@ -247,8 +265,10 @@
 				ED1FA00D2B53245C003882E3 /* KaratsubaTestCase.swift in Sources */,
 				ED7950EF2B5986660056A753 /* QuickSort.swift in Sources */,
 				ED1FA0162B54C8BC003882E3 /* Karatsuba.swift in Sources */,
+				ED78F3172B6C902B00A964BB /* DijkstraTestCase.swift in Sources */,
 				ED9DAD9F2B5DF43E009647A4 /* Karger.swift in Sources */,
 				ED7950F42B5998B30056A753 /* QuickSortTestCase.swift in Sources */,
+				ED78F3152B6BEF0B00A964BB /* Dijkstra.swift in Sources */,
 				EDCBBB192B63039300F4BE51 /* StanfordTestInputs.swift in Sources */,
 				ED2A837A2B57628800AD078B /* MergeSort.swift in Sources */,
 				ED78F3102B69ED3200A964BB /* Kosaraju.swift in Sources */,

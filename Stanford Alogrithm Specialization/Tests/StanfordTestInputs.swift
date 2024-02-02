@@ -90,4 +90,28 @@ final class StanfordTestInputs {
         return graph
     }
     
+    static var dijkstra: WeightedGraph {
+        let path: String = Bundle(for: Self.self).path(
+            forResource: "dijkstraShortestPaths",
+            ofType: "txt"
+        )!
+        let text: String = try! .init(
+            contentsOfFile: path,
+            encoding: .utf8
+        )
+        
+        var graph: WeightedGraph = [:]
+        
+        let lines: [Substring] = text.split(separator: "\n")
+        for line in lines {
+            let pairsAndVertex = line.split(separator: " ")
+            for pair in pairsAndVertex[1..<pairsAndVertex.count] {
+                let values = pair.split(separator: ",")
+                graph[Int(pairsAndVertex.first!)!, default: []].append((vertex: Int(values[0])!, distance: Int(values[1])!))
+            }
+        }
+        
+        return graph
+    }
+    
 }
