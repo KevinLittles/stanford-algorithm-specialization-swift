@@ -28,7 +28,8 @@ struct Dijkstra {
                 relax(
                     &destinations[adjacency.vertex]!,
                     adjacencyWeight: adjacency.distance,
-                    startDistance: destinations[closestDestination]?.distance ?? 0)
+                    startDistance: destinations[closestDestination]?.distance ?? 0
+                )
             }
         }
 

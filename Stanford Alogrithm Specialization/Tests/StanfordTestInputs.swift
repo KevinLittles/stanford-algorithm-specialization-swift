@@ -11,14 +11,7 @@ import BigInt
 final class StanfordTestInputs {
     
     static var karger: Graph {
-        let path: String = Bundle(for: Self.self).path(
-            forResource: "kargerMinCut",
-            ofType: "txt"
-        )!
-        let text: String = try! .init(
-            contentsOfFile: path,
-            encoding: .utf8
-        )
+        let text: String = valueFrom(file: "kargerMinCut")
         
         var graph: Graph = [:]
 
@@ -39,14 +32,7 @@ final class StanfordTestInputs {
     }
     
     static var mergeSort: [Int] {
-        let path: String = Bundle(for: Self.self).path(
-            forResource: "mergeSortInversionCount",
-            ofType: "txt"
-        )!
-        let text: String = try! .init(
-            contentsOfFile: path,
-            encoding: .utf8
-        )
+        let text: String = valueFrom(file: "mergeSortInversionCount")
 
         let lines: [Int] = text.split(separator: "\n").map { Int($0) ?? 0 }
         
@@ -54,14 +40,7 @@ final class StanfordTestInputs {
     }
     
     static var quickSort: [Int] {
-        let path: String = Bundle(for: Self.self).path(
-            forResource: "quickSortComparisonCount",
-            ofType: "txt"
-        )!
-        let text: String = try! .init(
-            contentsOfFile: path,
-            encoding: .utf8
-        )
+        let text: String = valueFrom(file: "quickSortComparisonCount")
 
         let lines: [Int] = text.split(separator: "\n").map { Int($0) ?? 0 }
         
@@ -69,14 +48,7 @@ final class StanfordTestInputs {
     }
     
     static var kosaraju: Graph {
-        let path: String = Bundle(for: Self.self).path(
-            forResource: "largestSCCs",
-            ofType: "txt"
-        )!
-        let text: String = try! .init(
-            contentsOfFile: path,
-            encoding: .utf8
-        )
+        let text: String = valueFrom(file: "largestSCCs")
         
         var graph: Graph = [:]
 
@@ -91,14 +63,7 @@ final class StanfordTestInputs {
     }
     
     static var dijkstra: WeightedGraph {
-        let path: String = Bundle(for: Self.self).path(
-            forResource: "dijkstraShortestPaths",
-            ofType: "txt"
-        )!
-        let text: String = try! .init(
-            contentsOfFile: path,
-            encoding: .utf8
-        )
+        let text: String = valueFrom(file: "dijkstraShortestPaths")
         
         var graph: WeightedGraph = [:]
         
@@ -112,6 +77,25 @@ final class StanfordTestInputs {
         }
         
         return graph
+    }
+    
+    static var medianMaintenanceSum: [Int] {
+        let text: String = valueFrom(file: "medianMaintenance")
+
+        let lines: [Int] = text.split(separator: "\n").map { Int($0) ?? 0 }
+        
+        return lines
+    }
+    
+    private static func valueFrom(file fileName: String) -> String {
+        let path: String = Bundle(for: Self.self).path(
+            forResource: fileName,
+            ofType: "txt"
+        )!
+        return try! .init(
+            contentsOfFile: path,
+            encoding: .utf8
+        )
     }
     
 }
