@@ -87,6 +87,14 @@ final class StanfordTestInputs {
         return lines
     }
     
+    static var twoSumCount: [Int] {
+        let text: String = valueFrom(file: "twoSumCount")
+
+        let lines: [Int] = text.split(separator: "\n").map { Int($0) ?? 0 }
+        
+        return lines
+    }
+    
     private static func valueFrom(file fileName: String) -> String {
         let path: String = Bundle(for: Self.self).path(
             forResource: fileName,

@@ -8,6 +8,7 @@
 import Foundation
 
 class BinarySearchTree {
+    
     var value: Int
     var left: BinarySearchTree?
     var right: BinarySearchTree?
