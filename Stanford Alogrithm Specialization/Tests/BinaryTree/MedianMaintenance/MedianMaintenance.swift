@@ -10,8 +10,8 @@ import Foundation
 struct MedianMaintenance {
     
     static func usingHeap(for array: [Int]) -> Int {
-        let maxHeap = MaxHeap()
-        let minHeap = MinHeap()
+        let maxHeap = MaxHeap<Int>()
+        let minHeap = MinHeap<Int>()
         
         var medianSum = 0
 

@@ -7,25 +7,25 @@
 
 import Foundation
 
-class Heap {
+class Heap<Element> {
     
-    var values: [Int]
-    let areInCorrectOrder: (Int, Int) -> Bool
+    var values: [Element]
+    let areInCorrectOrder: (Element, Element) -> Bool
 
-    var peek: Int? { values.first }
+    var peek: Element? { values.first }
 
-    init(values: [Int] = [], areInCorrectOrder: @escaping (Int, Int) -> Bool) {
+    init(values: [Element] = [], areInCorrectOrder: @escaping (Element, Element) -> Bool) {
         self.values = values
         self.areInCorrectOrder = areInCorrectOrder
         heapify()
     }
 
-    func insert(_ value: Int) {
+    func insert(_ value: Element) {
         values.append(value)
         swim(childIndex: values.count - 1)
     }
 
-    func extract() -> Int? {
+    func extract() -> Element? {
         guard !values.isEmpty else { return nil }
         values.swapAt(0, values.count - 1)
         let extracted = values.removeLast()

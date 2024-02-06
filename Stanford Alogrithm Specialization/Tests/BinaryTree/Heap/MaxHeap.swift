@@ -7,9 +7,9 @@
 
 import Foundation
 
-final class MaxHeap: Heap {
+final class MaxHeap<Element: Comparable>: Heap<Element> {
     
-    init(values: [Int] = []) {
+    init(values: [Element] = []) {
         super.init(values: values, areInCorrectOrder: >)
     }
     

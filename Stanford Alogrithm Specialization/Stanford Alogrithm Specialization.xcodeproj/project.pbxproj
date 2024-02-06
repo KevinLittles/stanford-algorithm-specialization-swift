@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED17D1582B71B4FC007E38D4 /* WeightedCompletionTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D1572B71B4FC007E38D4 /* WeightedCompletionTime.swift */; };
+		ED17D15A2B71B510007E38D4 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D1592B71B510007E38D4 /* Job.swift */; };
+		ED17D15C2B71B621007E38D4 /* WeightedCompletionTimeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D15B2B71B621007E38D4 /* WeightedCompletionTimeTestCase.swift */; };
+		ED17D1602B71B781007E38D4 /* weightedCompletionTime.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED17D15F2B71B781007E38D4 /* weightedCompletionTime.txt */; };
+		ED17D1632B71C250007E38D4 /* Prim.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D1622B71C250007E38D4 /* Prim.swift */; };
+		ED17D1652B71C2E4007E38D4 /* WheightedEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D1642B71C2E4007E38D4 /* WheightedEdge.swift */; };
+		ED17D1672B71CFEE007E38D4 /* PrimTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D1662B71CFEE007E38D4 /* PrimTestCase.swift */; };
+		ED17D1692B71D04C007E38D4 /* minimumSpanningTree.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED17D1682B71D04C007E38D4 /* minimumSpanningTree.txt */; };
 		ED1FA00D2B53245C003882E3 /* KaratsubaTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FA00C2B53245C003882E3 /* KaratsubaTestCase.swift */; };
 		ED1FA0132B532488003882E3 /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = ED1FA0122B532488003882E3 /* BigInt */; };
 		ED1FA0162B54C8BC003882E3 /* Karatsuba.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FA0152B54C8BC003882E3 /* Karatsuba.swift */; };
@@ -40,6 +48,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED17D1572B71B4FC007E38D4 /* WeightedCompletionTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedCompletionTime.swift; sourceTree = "<group>"; };
+		ED17D1592B71B510007E38D4 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		ED17D15B2B71B621007E38D4 /* WeightedCompletionTimeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedCompletionTimeTestCase.swift; sourceTree = "<group>"; };
+		ED17D15F2B71B781007E38D4 /* weightedCompletionTime.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = weightedCompletionTime.txt; sourceTree = "<group>"; };
+		ED17D1622B71C250007E38D4 /* Prim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prim.swift; sourceTree = "<group>"; };
+		ED17D1642B71C2E4007E38D4 /* WheightedEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheightedEdge.swift; sourceTree = "<group>"; };
+		ED17D1662B71CFEE007E38D4 /* PrimTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimTestCase.swift; sourceTree = "<group>"; };
+		ED17D1682B71D04C007E38D4 /* minimumSpanningTree.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = minimumSpanningTree.txt; sourceTree = "<group>"; };
 		ED1FA0092B53245C003882E3 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1FA00C2B53245C003882E3 /* KaratsubaTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaratsubaTestCase.swift; sourceTree = "<group>"; };
 		ED1FA0152B54C8BC003882E3 /* Karatsuba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karatsuba.swift; sourceTree = "<group>"; };
@@ -84,6 +100,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED17D1552B71B468007E38D4 /* Greedy */ = {
+			isa = PBXGroup;
+			children = (
+				ED17D1612B71C23F007E38D4 /* Prim */,
+				ED17D1562B71B4D4007E38D4 /* WeightedCompletionTime */,
+			);
+			path = Greedy;
+			sourceTree = "<group>";
+		};
+		ED17D1562B71B4D4007E38D4 /* WeightedCompletionTime */ = {
+			isa = PBXGroup;
+			children = (
+				ED17D1572B71B4FC007E38D4 /* WeightedCompletionTime.swift */,
+				ED17D1592B71B510007E38D4 /* Job.swift */,
+				ED17D15B2B71B621007E38D4 /* WeightedCompletionTimeTestCase.swift */,
+			);
+			path = WeightedCompletionTime;
+			sourceTree = "<group>";
+		};
+		ED17D1612B71C23F007E38D4 /* Prim */ = {
+			isa = PBXGroup;
+			children = (
+				ED17D1622B71C250007E38D4 /* Prim.swift */,
+				ED17D1642B71C2E4007E38D4 /* WheightedEdge.swift */,
+				ED17D1662B71CFEE007E38D4 /* PrimTestCase.swift */,
+			);
+			path = Prim;
+			sourceTree = "<group>";
+		};
 		ED1F9FFE2B5323D0003882E3 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +148,7 @@
 		ED1FA00B2B53245C003882E3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				ED17D1552B71B468007E38D4 /* Greedy */,
 				ED418FC52B6F601D0006D1BB /* HashMap */,
 				ED418FB52B6F00BD0006D1BB /* BinaryTree */,
 				EDCBBB182B63039300F4BE51 /* StanfordTestInputs.swift */,
@@ -268,6 +314,8 @@
 				ED78F3182B6C935700A964BB /* dijkstraShortestPaths.txt */,
 				ED418FB32B6EFD2A0006D1BB /* medianMaintenance.txt */,
 				ED418FCE2B6F64450006D1BB /* twoSumCount.txt */,
+				ED17D15F2B71B781007E38D4 /* weightedCompletionTime.txt */,
+				ED17D1682B71D04C007E38D4 /* minimumSpanningTree.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -338,9 +386,11 @@
 			files = (
 				ED418FB42B6EFD2A0006D1BB /* medianMaintenance.txt in Resources */,
 				EDC8ECFC2B69D73C0081BAF9 /* quickSortComparisonCount.txt in Resources */,
+				ED17D1602B71B781007E38D4 /* weightedCompletionTime.txt in Resources */,
 				ED78F3192B6C935700A964BB /* dijkstraShortestPaths.txt in Resources */,
 				EDCBBB1B2B63067500F4BE51 /* kargerMinCut.txt in Resources */,
 				ED418FCF2B6F64450006D1BB /* twoSumCount.txt in Resources */,
+				ED17D1692B71D04C007E38D4 /* minimumSpanningTree.txt in Resources */,
 				EDC8ECFA2B69D63C0081BAF9 /* mergeSortInversionCount.txt in Resources */,
 				EDC8ECFE2B69D9A50081BAF9 /* largestSCCs.txt in Resources */,
 			);
@@ -359,9 +409,14 @@
 				ED418FC42B6F38250006D1BB /* BinarySearchTree.swift in Sources */,
 				ED1FA0162B54C8BC003882E3 /* Karatsuba.swift in Sources */,
 				ED78F3172B6C902B00A964BB /* DijkstraTestCase.swift in Sources */,
+				ED17D15C2B71B621007E38D4 /* WeightedCompletionTimeTestCase.swift in Sources */,
 				ED418FC02B6F042C0006D1BB /* MaxHeap.swift in Sources */,
+				ED17D15A2B71B510007E38D4 /* Job.swift in Sources */,
 				ED9DAD9F2B5DF43E009647A4 /* Karger.swift in Sources */,
+				ED17D1652B71C2E4007E38D4 /* WheightedEdge.swift in Sources */,
+				ED17D1582B71B4FC007E38D4 /* WeightedCompletionTime.swift in Sources */,
 				ED7950F42B5998B30056A753 /* QuickSortTestCase.swift in Sources */,
+				ED17D1672B71CFEE007E38D4 /* PrimTestCase.swift in Sources */,
 				ED78F3152B6BEF0B00A964BB /* Dijkstra.swift in Sources */,
 				EDCBBB192B63039300F4BE51 /* StanfordTestInputs.swift in Sources */,
 				ED2A837A2B57628800AD078B /* MergeSort.swift in Sources */,
@@ -371,6 +426,7 @@
 				ED2A837C2B5768CD00AD078B /* MergeSortTestCase.swift in Sources */,
 				ED418FC92B6F605C0006D1BB /* IntToBoolHashMap.swift in Sources */,
 				ED9DADA12B5DFE41009647A4 /* KargerTestCase.swift in Sources */,
+				ED17D1632B71C250007E38D4 /* Prim.swift in Sources */,
 				ED418FC22B6F23AF0006D1BB /* MedianMaintenanceTestCase.swift in Sources */,
 				ED78F3122B6B192900A964BB /* KosarajuTestCase.swift in Sources */,
 				ED418FCB2B6F62C70006D1BB /* TwoSum.swift in Sources */,

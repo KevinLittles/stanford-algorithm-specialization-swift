@@ -7,9 +7,9 @@
 
 import Foundation
 
-final class MinHeap: Heap {
+final class MinHeap<Element: Comparable>: Heap<Element> {
     
-    init(values: [Int] = []) {
+    init(values: [Element] = []) {
         super.init(values: values, areInCorrectOrder: <)
     }
     

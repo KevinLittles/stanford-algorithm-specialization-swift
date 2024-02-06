@@ -95,6 +95,41 @@ final class StanfordTestInputs {
         return lines
     }
     
+    static var weightedCompletionTime: [Job] {
+        let text: String = valueFrom(file: "weightedCompletionTime")
+        
+        let lines = text.split(separator: "\n").dropFirst()
+        
+        var jobs: [Job] = []
+        
+        lines.forEach {
+            let values = $0.split(separator: " ")
+            let newJob: Job = .init(weight: Int(values[0])!, length: Int(values[1])!)
+            jobs.append(newJob)
+        }
+        
+        return jobs
+    }
+    
+    static var minimumSpanningTree: [WheightedEdge] {
+        let text: String = valueFrom(file: "minimumSpanningTree")
+        
+        let lines = text.split(separator: "\n").dropFirst()
+        
+        var edges: [WheightedEdge] = []
+        
+        lines.forEach {
+            let values = $0.split(separator: " ")
+            let newEdge: WheightedEdge = .init(
+                vertices: (Int(values[0])!, Int(values[1])!),
+                cost: Int(values[2])!
+            )
+            edges.append(newEdge)
+        }
+        
+        return edges
+    }
+    
     private static func valueFrom(file fileName: String) -> String {
         let path: String = Bundle(for: Self.self).path(
             forResource: fileName,
