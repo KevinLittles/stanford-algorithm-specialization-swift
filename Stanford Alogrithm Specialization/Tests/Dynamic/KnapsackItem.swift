@@ -1,0 +1,13 @@
+//
+//  KnapsackItem.swift
+//
+// Created by Kevin Littles on 18/05/25.
+// Copyright (c) 2025. All rights reserved.
+//
+
+import Foundation
+
+struct KnapsackItem {
+    let value: Int
+    let weight: Int
+}

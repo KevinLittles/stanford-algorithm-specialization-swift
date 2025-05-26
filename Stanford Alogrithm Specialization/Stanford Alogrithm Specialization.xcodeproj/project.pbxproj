@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED15FFA02DE3D05100127AA9 /* allPairs1.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FF9F2DE3D04600127AA9 /* allPairs1.txt */; };
+		ED15FFA42DE3D07B00127AA9 /* allPairs3.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FFA32DE3D07000127AA9 /* allPairs3.txt */; };
+		ED15FFA72DE3D2F300127AA9 /* Johnson.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFA62DE3D2ED00127AA9 /* Johnson.swift */; };
+		ED15FFA92DE3D33500127AA9 /* BellmanFord.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFA82DE3D32E00127AA9 /* BellmanFord.swift */; };
+		ED15FFAB2DE3D40200127AA9 /* JohnsonTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFAA2DE3D40200127AA9 /* JohnsonTestCase.swift */; };
+		ED15FFAD2DE3D5A700127AA9 /* allPairs2.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FFAC2DE3D59E00127AA9 /* allPairs2.txt */; };
+		ED15FFB02DE3EEE100127AA9 /* HelpKarpTSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFAF2DE3EEE100127AA9 /* HelpKarpTSP.swift */; };
+		ED15FFB22DE3EF8800127AA9 /* HeldKarpTSPTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFB12DE3EF8800127AA9 /* HeldKarpTSPTestCase.swift */; };
+		ED15FFB42DE3EFD300127AA9 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFB32DE3EFD100127AA9 /* Point.swift */; };
+		ED15FFB62DE3F02900127AA9 /* tsp.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FFB52DE3F02100127AA9 /* tsp.txt */; };
+		ED15FFB92DE3F5F400127AA9 /* NearestNeighborTSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFB82DE3F5F200127AA9 /* NearestNeighborTSP.swift */; };
+		ED15FFBB2DE3F6D100127AA9 /* NearestNeighborTSPTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFBA2DE3F6CE00127AA9 /* NearestNeighborTSPTestCase.swift */; };
+		ED15FFBD2DE3F74100127AA9 /* NamedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFBC2DE3F73C00127AA9 /* NamedPoint.swift */; };
+		ED15FFBF2DE3F76400127AA9 /* tspLarge.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FFBE2DE3F75F00127AA9 /* tspLarge.txt */; };
+		ED15FFC22DE3FF5B00127AA9 /* TwoSAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFC12DE3FF5700127AA9 /* TwoSAT.swift */; };
+		ED15FFC42DE4004900127AA9 /* TwoSATTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED15FFC32DE4004200127AA9 /* TwoSATTestCase.swift */; };
+		ED15FFC62DE400A200127AA9 /* 2sat1.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FFC52DE4009F00127AA9 /* 2sat1.txt */; };
+		ED15FFCC2DE400DE00127AA9 /* 2sat2.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FFCB2DE400D700127AA9 /* 2sat2.txt */; };
+		ED15FFD22DE4020300127AA9 /* 2sat3.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FFD12DE401FC00127AA9 /* 2sat3.txt */; };
+		ED15FFD82DE4034000127AA9 /* 2sat4.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FFD72DE4033700127AA9 /* 2sat4.txt */; };
+		ED15FFDA2DE4040200127AA9 /* 2sat5.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FFD92DE403F900127AA9 /* 2sat5.txt */; };
+		ED15FFDE2DE4090900127AA9 /* 2sat6.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED15FFDD2DE4090900127AA9 /* 2sat6.txt */; };
 		ED17D1582B71B4FC007E38D4 /* WeightedCompletionTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D1572B71B4FC007E38D4 /* WeightedCompletionTime.swift */; };
 		ED17D15A2B71B510007E38D4 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D1592B71B510007E38D4 /* Job.swift */; };
 		ED17D15C2B71B621007E38D4 /* WeightedCompletionTimeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D15B2B71B621007E38D4 /* WeightedCompletionTimeTestCase.swift */; };
@@ -15,6 +37,7 @@
 		ED17D1652B71C2E4007E38D4 /* WheightedEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D1642B71C2E4007E38D4 /* WheightedEdge.swift */; };
 		ED17D1672B71CFEE007E38D4 /* PrimTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED17D1662B71CFEE007E38D4 /* PrimTestCase.swift */; };
 		ED17D1692B71D04C007E38D4 /* minimumSpanningTree.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED17D1682B71D04C007E38D4 /* minimumSpanningTree.txt */; };
+		ED1A28F42D77B23100FFF167 /* smallClustering.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED1A28F32D77B22700FFF167 /* smallClustering.txt */; };
 		ED1FA00D2B53245C003882E3 /* KaratsubaTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FA00C2B53245C003882E3 /* KaratsubaTestCase.swift */; };
 		ED1FA0132B532488003882E3 /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = ED1FA0122B532488003882E3 /* BigInt */; };
 		ED1FA0162B54C8BC003882E3 /* Karatsuba.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1FA0152B54C8BC003882E3 /* Karatsuba.swift */; };
@@ -31,6 +54,20 @@
 		ED418FCB2B6F62C70006D1BB /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED418FCA2B6F62C70006D1BB /* TwoSum.swift */; };
 		ED418FCD2B6F64180006D1BB /* TwoSumTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED418FCC2B6F64180006D1BB /* TwoSumTestCase.swift */; };
 		ED418FCF2B6F64450006D1BB /* twoSumCount.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED418FCE2B6F64450006D1BB /* twoSumCount.txt */; };
+		ED717DE12DDA95AA00C31CD5 /* maxSpacingKClustering.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED717DE02DDA959A00C31CD5 /* maxSpacingKClustering.txt */; };
+		ED717DE32DDA96C500C31CD5 /* KruskalTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED717DE22DDA96C500C31CD5 /* KruskalTestCase.swift */; };
+		ED717DE52DDA9A2600C31CD5 /* maxSpacingKClusterinBig.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED717DE42DDA9A2000C31CD5 /* maxSpacingKClusterinBig.txt */; };
+		ED717DE82DDAB10C00C31CD5 /* huffmanSymbolWeights.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED717DE72DDAB10400C31CD5 /* huffmanSymbolWeights.txt */; };
+		ED717DEA2DDAB13900C31CD5 /* Huffman.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED717DE92DDAB13900C31CD5 /* Huffman.swift */; };
+		ED717DEC2DDAB16700C31CD5 /* HuffmanTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED717DEB2DDAB16000C31CD5 /* HuffmanTestCase.swift */; };
+		ED717DEE2DDAB1DA00C31CD5 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED717DED2DDAB1D800C31CD5 /* Node.swift */; };
+		ED717DF22DDAB6CB00C31CD5 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED717DF12DDAB6C400C31CD5 /* Dynamic.swift */; };
+		ED717DF42DDAB70900C31CD5 /* DynamicTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED717DF32DDAB70400C31CD5 /* DynamicTestCase.swift */; };
+		ED717DF62DDAB73C00C31CD5 /* maxWeightIndependentSet.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED717DF52DDAB73800C31CD5 /* maxWeightIndependentSet.txt */; };
+		ED717DF82DDABB4B00C31CD5 /* KnapsackItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED717DF72DDABB4900C31CD5 /* KnapsackItem.swift */; };
+		ED717DFA2DDABB8700C31CD5 /* knapsack.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED717DF92DDABB8300C31CD5 /* knapsack.txt */; };
+		ED717DFC2DDABDC600C31CD5 /* MemoizationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED717DFB2DDABDC500C31CD5 /* MemoizationKey.swift */; };
+		ED717DFE2DDABE6400C31CD5 /* knapsackBig.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED717DFD2DDABE5D00C31CD5 /* knapsackBig.txt */; };
 		ED78F3102B69ED3200A964BB /* Kosaraju.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78F30F2B69ED3200A964BB /* Kosaraju.swift */; };
 		ED78F3122B6B192900A964BB /* KosarajuTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78F3112B6B192900A964BB /* KosarajuTestCase.swift */; };
 		ED78F3152B6BEF0B00A964BB /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78F3142B6BEF0B00A964BB /* Dijkstra.swift */; };
@@ -43,11 +80,34 @@
 		EDC8ECFA2B69D63C0081BAF9 /* mergeSortInversionCount.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDC8ECF92B69D63C0081BAF9 /* mergeSortInversionCount.txt */; };
 		EDC8ECFC2B69D73C0081BAF9 /* quickSortComparisonCount.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDC8ECFB2B69D73C0081BAF9 /* quickSortComparisonCount.txt */; };
 		EDC8ECFE2B69D9A50081BAF9 /* largestSCCs.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDC8ECFD2B69D9A50081BAF9 /* largestSCCs.txt */; };
+		EDC9B89E2D77B1720084E20C /* Kruskal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC9B89D2D77B1720084E20C /* Kruskal.swift */; };
 		EDCBBB192B63039300F4BE51 /* StanfordTestInputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCBBB182B63039300F4BE51 /* StanfordTestInputs.swift */; };
 		EDCBBB1B2B63067500F4BE51 /* kargerMinCut.txt in Resources */ = {isa = PBXBuildFile; fileRef = EDCBBB1A2B63067500F4BE51 /* kargerMinCut.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED15FF9F2DE3D04600127AA9 /* allPairs1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = allPairs1.txt; sourceTree = "<group>"; };
+		ED15FFA32DE3D07000127AA9 /* allPairs3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = allPairs3.txt; sourceTree = "<group>"; };
+		ED15FFA62DE3D2ED00127AA9 /* Johnson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Johnson.swift; sourceTree = "<group>"; };
+		ED15FFA82DE3D32E00127AA9 /* BellmanFord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellmanFord.swift; sourceTree = "<group>"; };
+		ED15FFAA2DE3D40200127AA9 /* JohnsonTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JohnsonTestCase.swift; sourceTree = "<group>"; };
+		ED15FFAC2DE3D59E00127AA9 /* allPairs2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = allPairs2.txt; sourceTree = "<group>"; };
+		ED15FFAF2DE3EEE100127AA9 /* HelpKarpTSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpKarpTSP.swift; sourceTree = "<group>"; };
+		ED15FFB12DE3EF8800127AA9 /* HeldKarpTSPTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeldKarpTSPTestCase.swift; sourceTree = "<group>"; };
+		ED15FFB32DE3EFD100127AA9 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		ED15FFB52DE3F02100127AA9 /* tsp.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tsp.txt; sourceTree = "<group>"; };
+		ED15FFB82DE3F5F200127AA9 /* NearestNeighborTSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestNeighborTSP.swift; sourceTree = "<group>"; };
+		ED15FFBA2DE3F6CE00127AA9 /* NearestNeighborTSPTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestNeighborTSPTestCase.swift; sourceTree = "<group>"; };
+		ED15FFBC2DE3F73C00127AA9 /* NamedPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedPoint.swift; sourceTree = "<group>"; };
+		ED15FFBE2DE3F75F00127AA9 /* tspLarge.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tspLarge.txt; sourceTree = "<group>"; };
+		ED15FFC12DE3FF5700127AA9 /* TwoSAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSAT.swift; sourceTree = "<group>"; };
+		ED15FFC32DE4004200127AA9 /* TwoSATTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSATTestCase.swift; sourceTree = "<group>"; };
+		ED15FFC52DE4009F00127AA9 /* 2sat1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2sat1.txt; sourceTree = "<group>"; };
+		ED15FFCB2DE400D700127AA9 /* 2sat2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2sat2.txt; sourceTree = "<group>"; };
+		ED15FFD12DE401FC00127AA9 /* 2sat3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2sat3.txt; sourceTree = "<group>"; };
+		ED15FFD72DE4033700127AA9 /* 2sat4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2sat4.txt; sourceTree = "<group>"; };
+		ED15FFD92DE403F900127AA9 /* 2sat5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2sat5.txt; sourceTree = "<group>"; };
+		ED15FFDD2DE4090900127AA9 /* 2sat6.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2sat6.txt; sourceTree = "<group>"; };
 		ED17D1572B71B4FC007E38D4 /* WeightedCompletionTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedCompletionTime.swift; sourceTree = "<group>"; };
 		ED17D1592B71B510007E38D4 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		ED17D15B2B71B621007E38D4 /* WeightedCompletionTimeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightedCompletionTimeTestCase.swift; sourceTree = "<group>"; };
@@ -56,6 +116,7 @@
 		ED17D1642B71C2E4007E38D4 /* WheightedEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheightedEdge.swift; sourceTree = "<group>"; };
 		ED17D1662B71CFEE007E38D4 /* PrimTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimTestCase.swift; sourceTree = "<group>"; };
 		ED17D1682B71D04C007E38D4 /* minimumSpanningTree.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = minimumSpanningTree.txt; sourceTree = "<group>"; };
+		ED1A28F32D77B22700FFF167 /* smallClustering.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = smallClustering.txt; sourceTree = "<group>"; };
 		ED1FA0092B53245C003882E3 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1FA00C2B53245C003882E3 /* KaratsubaTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaratsubaTestCase.swift; sourceTree = "<group>"; };
 		ED1FA0152B54C8BC003882E3 /* Karatsuba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karatsuba.swift; sourceTree = "<group>"; };
@@ -72,6 +133,20 @@
 		ED418FCA2B6F62C70006D1BB /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		ED418FCC2B6F64180006D1BB /* TwoSumTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumTestCase.swift; sourceTree = "<group>"; };
 		ED418FCE2B6F64450006D1BB /* twoSumCount.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = twoSumCount.txt; sourceTree = "<group>"; };
+		ED717DE02DDA959A00C31CD5 /* maxSpacingKClustering.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = maxSpacingKClustering.txt; sourceTree = "<group>"; };
+		ED717DE22DDA96C500C31CD5 /* KruskalTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KruskalTestCase.swift; sourceTree = "<group>"; };
+		ED717DE42DDA9A2000C31CD5 /* maxSpacingKClusterinBig.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = maxSpacingKClusterinBig.txt; sourceTree = "<group>"; };
+		ED717DE72DDAB10400C31CD5 /* huffmanSymbolWeights.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = huffmanSymbolWeights.txt; sourceTree = "<group>"; };
+		ED717DE92DDAB13900C31CD5 /* Huffman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Huffman.swift; sourceTree = "<group>"; };
+		ED717DEB2DDAB16000C31CD5 /* HuffmanTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuffmanTestCase.swift; sourceTree = "<group>"; };
+		ED717DED2DDAB1D800C31CD5 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		ED717DF12DDAB6C400C31CD5 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		ED717DF32DDAB70400C31CD5 /* DynamicTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTestCase.swift; sourceTree = "<group>"; };
+		ED717DF52DDAB73800C31CD5 /* maxWeightIndependentSet.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = maxWeightIndependentSet.txt; sourceTree = "<group>"; };
+		ED717DF72DDABB4900C31CD5 /* KnapsackItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnapsackItem.swift; sourceTree = "<group>"; };
+		ED717DF92DDABB8300C31CD5 /* knapsack.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = knapsack.txt; sourceTree = "<group>"; };
+		ED717DFB2DDABDC500C31CD5 /* MemoizationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoizationKey.swift; sourceTree = "<group>"; };
+		ED717DFD2DDABE5D00C31CD5 /* knapsackBig.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = knapsackBig.txt; sourceTree = "<group>"; };
 		ED78F30F2B69ED3200A964BB /* Kosaraju.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kosaraju.swift; sourceTree = "<group>"; };
 		ED78F3112B6B192900A964BB /* KosarajuTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KosarajuTestCase.swift; sourceTree = "<group>"; };
 		ED78F3142B6BEF0B00A964BB /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
@@ -84,6 +159,7 @@
 		EDC8ECF92B69D63C0081BAF9 /* mergeSortInversionCount.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = mergeSortInversionCount.txt; sourceTree = "<group>"; };
 		EDC8ECFB2B69D73C0081BAF9 /* quickSortComparisonCount.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = quickSortComparisonCount.txt; sourceTree = "<group>"; };
 		EDC8ECFD2B69D9A50081BAF9 /* largestSCCs.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = largestSCCs.txt; sourceTree = "<group>"; };
+		EDC9B89D2D77B1720084E20C /* Kruskal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kruskal.swift; sourceTree = "<group>"; };
 		EDCBBB182B63039300F4BE51 /* StanfordTestInputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StanfordTestInputs.swift; sourceTree = "<group>"; };
 		EDCBBB1A2B63067500F4BE51 /* kargerMinCut.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kargerMinCut.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,9 +176,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED15FFA52DE3D2E300127AA9 /* ShortestShortestPath */ = {
+			isa = PBXGroup;
+			children = (
+				ED15FFA82DE3D32E00127AA9 /* BellmanFord.swift */,
+				ED15FFA62DE3D2ED00127AA9 /* Johnson.swift */,
+				ED15FFAA2DE3D40200127AA9 /* JohnsonTestCase.swift */,
+			);
+			path = ShortestShortestPath;
+			sourceTree = "<group>";
+		};
+		ED15FFAE2DE3EEC300127AA9 /* TSP */ = {
+			isa = PBXGroup;
+			children = (
+				ED15FFB32DE3EFD100127AA9 /* Point.swift */,
+				ED15FFAF2DE3EEE100127AA9 /* HelpKarpTSP.swift */,
+				ED15FFB12DE3EF8800127AA9 /* HeldKarpTSPTestCase.swift */,
+			);
+			path = TSP;
+			sourceTree = "<group>";
+		};
+		ED15FFB72DE3F5E100127AA9 /* TSP */ = {
+			isa = PBXGroup;
+			children = (
+				ED15FFBC2DE3F73C00127AA9 /* NamedPoint.swift */,
+				ED15FFBA2DE3F6CE00127AA9 /* NearestNeighborTSPTestCase.swift */,
+				ED15FFB82DE3F5F200127AA9 /* NearestNeighborTSP.swift */,
+			);
+			path = TSP;
+			sourceTree = "<group>";
+		};
+		ED15FFC02DE3FF5100127AA9 /* TwoSAT */ = {
+			isa = PBXGroup;
+			children = (
+				ED15FFC32DE4004200127AA9 /* TwoSATTestCase.swift */,
+				ED15FFC12DE3FF5700127AA9 /* TwoSAT.swift */,
+			);
+			path = TwoSAT;
+			sourceTree = "<group>";
+		};
 		ED17D1552B71B468007E38D4 /* Greedy */ = {
 			isa = PBXGroup;
 			children = (
+				ED15FFB72DE3F5E100127AA9 /* TSP */,
+				ED717DE62DDAB0CD00C31CD5 /* Huffman */,
+				EDC9B89A2D77AD7A0084E20C /* Kruskal */,
 				ED17D1612B71C23F007E38D4 /* Prim */,
 				ED17D1562B71B4D4007E38D4 /* WeightedCompletionTime */,
 			);
@@ -148,6 +266,7 @@
 		ED1FA00B2B53245C003882E3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				ED717DEF2DDAB65200C31CD5 /* Dynamic */,
 				ED17D1552B71B468007E38D4 /* Greedy */,
 				ED418FC52B6F601D0006D1BB /* HashMap */,
 				ED418FB52B6F00BD0006D1BB /* BinaryTree */,
@@ -231,9 +350,32 @@
 			path = TwoSumCount;
 			sourceTree = "<group>";
 		};
+		ED717DE62DDAB0CD00C31CD5 /* Huffman */ = {
+			isa = PBXGroup;
+			children = (
+				ED717DED2DDAB1D800C31CD5 /* Node.swift */,
+				ED717DEB2DDAB16000C31CD5 /* HuffmanTestCase.swift */,
+				ED717DE92DDAB13900C31CD5 /* Huffman.swift */,
+			);
+			path = Huffman;
+			sourceTree = "<group>";
+		};
+		ED717DEF2DDAB65200C31CD5 /* Dynamic */ = {
+			isa = PBXGroup;
+			children = (
+				ED15FFAE2DE3EEC300127AA9 /* TSP */,
+				ED717DFB2DDABDC500C31CD5 /* MemoizationKey.swift */,
+				ED717DF72DDABB4900C31CD5 /* KnapsackItem.swift */,
+				ED717DF32DDAB70400C31CD5 /* DynamicTestCase.swift */,
+				ED717DF12DDAB6C400C31CD5 /* Dynamic.swift */,
+			);
+			path = Dynamic;
+			sourceTree = "<group>";
+		};
 		ED78F30E2B69ED0400A964BB /* StrongConnectedComponents */ = {
 			isa = PBXGroup;
 			children = (
+				ED15FFC02DE3FF5100127AA9 /* TwoSAT */,
 				ED78F30F2B69ED3200A964BB /* Kosaraju.swift */,
 				ED78F3112B6B192900A964BB /* KosarajuTestCase.swift */,
 			);
@@ -243,6 +385,7 @@
 		ED78F3132B6BEEFA00A964BB /* ShortestPaths */ = {
 			isa = PBXGroup;
 			children = (
+				ED15FFA52DE3D2E300127AA9 /* ShortestShortestPath */,
 				ED78F3142B6BEF0B00A964BB /* Dijkstra.swift */,
 				ED78F3162B6C902B00A964BB /* DijkstraTestCase.swift */,
 			);
@@ -307,6 +450,24 @@
 		EDC8ECF82B69B4AE0081BAF9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ED15FFDD2DE4090900127AA9 /* 2sat6.txt */,
+				ED15FFD92DE403F900127AA9 /* 2sat5.txt */,
+				ED15FFD72DE4033700127AA9 /* 2sat4.txt */,
+				ED15FFD12DE401FC00127AA9 /* 2sat3.txt */,
+				ED15FFCB2DE400D700127AA9 /* 2sat2.txt */,
+				ED15FFC52DE4009F00127AA9 /* 2sat1.txt */,
+				ED15FFBE2DE3F75F00127AA9 /* tspLarge.txt */,
+				ED15FFB52DE3F02100127AA9 /* tsp.txt */,
+				ED15FFAC2DE3D59E00127AA9 /* allPairs2.txt */,
+				ED15FFA32DE3D07000127AA9 /* allPairs3.txt */,
+				ED15FF9F2DE3D04600127AA9 /* allPairs1.txt */,
+				ED717DFD2DDABE5D00C31CD5 /* knapsackBig.txt */,
+				ED717DF92DDABB8300C31CD5 /* knapsack.txt */,
+				ED717DF52DDAB73800C31CD5 /* maxWeightIndependentSet.txt */,
+				ED717DE72DDAB10400C31CD5 /* huffmanSymbolWeights.txt */,
+				ED717DE42DDA9A2000C31CD5 /* maxSpacingKClusterinBig.txt */,
+				ED717DE02DDA959A00C31CD5 /* maxSpacingKClustering.txt */,
+				ED1A28F32D77B22700FFF167 /* smallClustering.txt */,
 				EDCBBB1A2B63067500F4BE51 /* kargerMinCut.txt */,
 				EDC8ECF92B69D63C0081BAF9 /* mergeSortInversionCount.txt */,
 				EDC8ECFB2B69D73C0081BAF9 /* quickSortComparisonCount.txt */,
@@ -318,6 +479,15 @@
 				ED17D1682B71D04C007E38D4 /* minimumSpanningTree.txt */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		EDC9B89A2D77AD7A0084E20C /* Kruskal */ = {
+			isa = PBXGroup;
+			children = (
+				EDC9B89D2D77B1720084E20C /* Kruskal.swift */,
+				ED717DE22DDA96C500C31CD5 /* KruskalTestCase.swift */,
+			);
+			path = Kruskal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,13 +555,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED418FB42B6EFD2A0006D1BB /* medianMaintenance.txt in Resources */,
+				ED717DFA2DDABB8700C31CD5 /* knapsack.txt in Resources */,
 				EDC8ECFC2B69D73C0081BAF9 /* quickSortComparisonCount.txt in Resources */,
+				ED717DE52DDA9A2600C31CD5 /* maxSpacingKClusterinBig.txt in Resources */,
+				ED15FFC62DE400A200127AA9 /* 2sat1.txt in Resources */,
 				ED17D1602B71B781007E38D4 /* weightedCompletionTime.txt in Resources */,
+				ED15FFCC2DE400DE00127AA9 /* 2sat2.txt in Resources */,
 				ED78F3192B6C935700A964BB /* dijkstraShortestPaths.txt in Resources */,
+				ED15FFDE2DE4090900127AA9 /* 2sat6.txt in Resources */,
+				ED717DE82DDAB10C00C31CD5 /* huffmanSymbolWeights.txt in Resources */,
 				EDCBBB1B2B63067500F4BE51 /* kargerMinCut.txt in Resources */,
+				ED15FFA42DE3D07B00127AA9 /* allPairs3.txt in Resources */,
+				ED717DF62DDAB73C00C31CD5 /* maxWeightIndependentSet.txt in Resources */,
+				ED15FFBF2DE3F76400127AA9 /* tspLarge.txt in Resources */,
 				ED418FCF2B6F64450006D1BB /* twoSumCount.txt in Resources */,
+				ED15FFDA2DE4040200127AA9 /* 2sat5.txt in Resources */,
+				ED15FFD82DE4034000127AA9 /* 2sat4.txt in Resources */,
 				ED17D1692B71D04C007E38D4 /* minimumSpanningTree.txt in Resources */,
+				ED15FFAD2DE3D5A700127AA9 /* allPairs2.txt in Resources */,
+				ED717DFE2DDABE6400C31CD5 /* knapsackBig.txt in Resources */,
 				EDC8ECFA2B69D63C0081BAF9 /* mergeSortInversionCount.txt in Resources */,
+				ED1A28F42D77B23100FFF167 /* smallClustering.txt in Resources */,
+				ED15FFB62DE3F02900127AA9 /* tsp.txt in Resources */,
+				ED15FFD22DE4020300127AA9 /* 2sat3.txt in Resources */,
+				ED15FFA02DE3D05100127AA9 /* allPairs1.txt in Resources */,
+				ED717DE12DDA95AA00C31CD5 /* maxSpacingKClustering.txt in Resources */,
 				EDC8ECFE2B69D9A50081BAF9 /* largestSCCs.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,29 +592,49 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED1FA00D2B53245C003882E3 /* KaratsubaTestCase.swift in Sources */,
+				ED15FFB42DE3EFD300127AA9 /* Point.swift in Sources */,
 				ED7950EF2B5986660056A753 /* QuickSort.swift in Sources */,
 				ED418FCD2B6F64180006D1BB /* TwoSumTestCase.swift in Sources */,
+				ED717DEE2DDAB1DA00C31CD5 /* Node.swift in Sources */,
 				ED418FC42B6F38250006D1BB /* BinarySearchTree.swift in Sources */,
 				ED1FA0162B54C8BC003882E3 /* Karatsuba.swift in Sources */,
 				ED78F3172B6C902B00A964BB /* DijkstraTestCase.swift in Sources */,
+				ED15FFBD2DE3F74100127AA9 /* NamedPoint.swift in Sources */,
 				ED17D15C2B71B621007E38D4 /* WeightedCompletionTimeTestCase.swift in Sources */,
+				EDC9B89E2D77B1720084E20C /* Kruskal.swift in Sources */,
 				ED418FC02B6F042C0006D1BB /* MaxHeap.swift in Sources */,
+				ED15FFC22DE3FF5B00127AA9 /* TwoSAT.swift in Sources */,
 				ED17D15A2B71B510007E38D4 /* Job.swift in Sources */,
 				ED9DAD9F2B5DF43E009647A4 /* Karger.swift in Sources */,
+				ED717DF82DDABB4B00C31CD5 /* KnapsackItem.swift in Sources */,
+				ED15FFB92DE3F5F400127AA9 /* NearestNeighborTSP.swift in Sources */,
 				ED17D1652B71C2E4007E38D4 /* WheightedEdge.swift in Sources */,
+				ED717DEA2DDAB13900C31CD5 /* Huffman.swift in Sources */,
 				ED17D1582B71B4FC007E38D4 /* WeightedCompletionTime.swift in Sources */,
 				ED7950F42B5998B30056A753 /* QuickSortTestCase.swift in Sources */,
+				ED15FFB02DE3EEE100127AA9 /* HelpKarpTSP.swift in Sources */,
+				ED15FFAB2DE3D40200127AA9 /* JohnsonTestCase.swift in Sources */,
 				ED17D1672B71CFEE007E38D4 /* PrimTestCase.swift in Sources */,
+				ED15FFA92DE3D33500127AA9 /* BellmanFord.swift in Sources */,
 				ED78F3152B6BEF0B00A964BB /* Dijkstra.swift in Sources */,
+				ED717DEC2DDAB16700C31CD5 /* HuffmanTestCase.swift in Sources */,
+				ED15FFA72DE3D2F300127AA9 /* Johnson.swift in Sources */,
+				ED717DF42DDAB70900C31CD5 /* DynamicTestCase.swift in Sources */,
+				ED15FFC42DE4004900127AA9 /* TwoSATTestCase.swift in Sources */,
 				EDCBBB192B63039300F4BE51 /* StanfordTestInputs.swift in Sources */,
+				ED15FFB22DE3EF8800127AA9 /* HeldKarpTSPTestCase.swift in Sources */,
 				ED2A837A2B57628800AD078B /* MergeSort.swift in Sources */,
 				ED78F3102B69ED3200A964BB /* Kosaraju.swift in Sources */,
 				ED418FBE2B6F04160006D1BB /* MinHeap.swift in Sources */,
 				ED418FBC2B6F01980006D1BB /* MedianMaintenance.swift in Sources */,
 				ED2A837C2B5768CD00AD078B /* MergeSortTestCase.swift in Sources */,
 				ED418FC92B6F605C0006D1BB /* IntToBoolHashMap.swift in Sources */,
+				ED717DFC2DDABDC600C31CD5 /* MemoizationKey.swift in Sources */,
 				ED9DADA12B5DFE41009647A4 /* KargerTestCase.swift in Sources */,
+				ED15FFBB2DE3F6D100127AA9 /* NearestNeighborTSPTestCase.swift in Sources */,
 				ED17D1632B71C250007E38D4 /* Prim.swift in Sources */,
+				ED717DF22DDAB6CB00C31CD5 /* Dynamic.swift in Sources */,
+				ED717DE32DDA96C500C31CD5 /* KruskalTestCase.swift in Sources */,
 				ED418FC22B6F23AF0006D1BB /* MedianMaintenanceTestCase.swift in Sources */,
 				ED78F3122B6B192900A964BB /* KosarajuTestCase.swift in Sources */,
 				ED418FCB2B6F62C70006D1BB /* TwoSum.swift in Sources */,

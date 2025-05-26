@@ -13,7 +13,7 @@ struct Kosaraju {
         return reverse(strongConnectedComponents(graph).map { $0.count }.sorted())
     }
     
-    private static func strongConnectedComponents(_ graph: Graph) -> [[Int]] {
+    static func strongConnectedComponents(_ graph: Graph) -> [[Int]] {
         let finishOrder: [Int] = finishOrder(graph: graph)
         let reversedGraph: Graph = reverse(graph)
         return explore(reversedGraph, inOrder: reverse(finishOrder))
